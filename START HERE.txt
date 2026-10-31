@@ -1,0 +1,40 @@
+FocusMerge - one-click focus stacking inside Lightroom Classic
+================================================================
+
+What it does
+  Select the frames of a focus stack in Lightroom, run one menu item, and a merged
+  16-bit TIFF appears in your catalog, stacked above the first frame.
+
+What you need
+  - A Mac with macOS 13 or newer (Apple silicon) or macOS 14 or newer (Intel)
+  - Lightroom Classic
+  - An internet connection while installing (about 150-200 MB, one time)
+  - About 1 GB of free disk space for the engine, and 16 GB of RAM is comfortable
+    for 26-megapixel stacks
+
+Install (about two minutes)
+  1. Double-click "Install FocusMerge.command".
+     The first time, macOS may say it cannot verify the developer. Close that message,
+     then right-click the file, choose Open, and click Open again.
+  2. A Terminal window shows the progress and ends with "Installed."
+  3. Quit and reopen Lightroom Classic.
+
+Use
+  1. In the Library grid, select the frames of ONE focus stack.
+  2. Library > Plug-in Extras > Focus Merge Selected Photos
+  3. The merged file "<first frame>_FM<count>.tif" is added next to the first frame,
+     stacked above it and selected. Press Cmd+E to open it in Photoshop.
+
+Options: Library > Plug-in Extras > Focus Merge Settings...
+
+If something goes wrong
+  - The message in Lightroom says what happened.
+  - The log of the last run is:  ~/Library/Logs/FocusMerge/last-run.log
+    Send that file when asking for help.
+
+Uninstall
+  Double-click "Uninstall FocusMerge.command".
+
+More: README.md.  License: MIT (LICENSE).  Nothing is sent anywhere; the installer only
+downloads software (Python libraries from PyPI; Python itself from astral.sh/GitHub if your
+Mac has none).

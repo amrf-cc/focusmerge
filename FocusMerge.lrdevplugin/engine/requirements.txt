@@ -1,0 +1,6 @@
+# Versions the engine was developed and tested against (Python 3.11). The upper bounds only keep
+# the installer from pulling majors that were never tested.
+numpy>=2.4.6,<2.5
+opencv-python-headless>=5.0.0,<5.1
+tifffile>=2026.3.3
+imagecodecs>=2026.3.6

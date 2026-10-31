@@ -1,0 +1,33 @@
+name: Bug report
+description: Something went wrong while merging
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what you got (a screenshot of any dialog helps).
+    validations: {required: true}
+  - type: input
+    id: macos
+    attributes: {label: macOS version and chip, placeholder: "macOS 15.2, Apple M2"}
+    validations: {required: true}
+  - type: input
+    id: lr
+    attributes: {label: Lightroom Classic version, placeholder: "15.1"}
+    validations: {required: true}
+  - type: input
+    id: fm
+    attributes: {label: FocusMerge version, placeholder: "1.2.0"}
+    validations: {required: true}
+  - type: textarea
+    id: setup
+    attributes:
+      label: Frames and settings
+      description: Camera / file type, number of frames, handheld or tripod, and the Output size / Sharpness / Alignment settings.
+  - type: textarea
+    id: log
+    attributes:
+      label: Log of the last run
+      description: Contents of `~/Library/Logs/FocusMerge/last-run.log`.
+      render: text

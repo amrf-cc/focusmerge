@@ -1,0 +1,3 @@
+-r FocusMerge.lrdevplugin/engine/requirements.txt
+pytest>=8
+lupa>=2.2

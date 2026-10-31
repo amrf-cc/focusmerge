@@ -1,0 +1,12 @@
+*.part.tif
+*.pyc
+.DS_Store
+.pytest_cache/
+.remember/
+.venv/
+__pycache__/
+dist/
+scratch/
+
+# local originals of the README images
+Before and after/
