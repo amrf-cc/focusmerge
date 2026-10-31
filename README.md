@@ -9,12 +9,12 @@ stacking app for the merge itself.
 
 <table>
 <tr>
-<td width="50%"><img src="docs/images/bf.jpg" alt="One frame of the stack"></td>
-<td width="50%"><img src="docs/images/af.jpg" alt="The finished photo"></td>
+<td width="50%"><img src="docs/images/bf.jpg" alt="One frame of the stack, unmerged"></td>
+<td width="50%"><img src="docs/images/af.jpg" alt="The merged result, straight from FocusMerge with no further adjustments"></td>
 </tr>
 <tr>
 <td align="center"><sub>One frame (shallow depth of field)</sub></td>
-<td align="center"><sub>The finished photo: a focus stack merged with FocusMerge, then edited</sub></td>
+<td align="center"><sub>FocusMerge output: the whole stack merged. No retouching, colour grading or other adjustments.</sub></td>
 </tr>
 </table>
 
